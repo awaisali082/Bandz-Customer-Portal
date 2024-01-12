@@ -1,0 +1,30 @@
+<div class="container">
+<div class="nn-content-centered">
+    <h1 class="nn-sign-in-heading">
+        Sign In
+    </h1>
+    <div>
+        <p class="nn-below-heading-text">
+            Not a member?
+            <a class="nn-below-heading-link" [routerLink]=" ['./signup'] ">Sign Up here</a>
+        </p>
+    </div>
+    <div class="nn-input-feilds-div">
+      <div><input type="text" class="nn-namefeild" [(ngModel)]="name" placeholder="Username"></div>  
+       <div> <input type="text" class="nn-passwordfeild" [(ngModel)]="password" placeholder="Password"></div>
+    </div>
+    <div class="nn-forgot-pass-div">
+        <a class="nn-forgot-password-link">Forgot Password?</a>
+    </div>
+    <div class="nn-btn-div">
+        <button type="button" class="nn-sign-in-btn">
+          Sign In
+        </button>
+    </div>
+</div>
+<div class="nn-terms-text-main-div">
+    <p class="nn-terms-text-main">
+            * By logging in, you agree to our <span class="nn-terms-text">Terms of Use, Privacy Policy </span>  and to receive Bandz emails, newsletters & updates.
+    </p>
+</div>
+</div>

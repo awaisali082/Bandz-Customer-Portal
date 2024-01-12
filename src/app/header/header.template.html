@@ -1,0 +1,87 @@
+<!-- <nav>
+    <a [routerLink]=" ['./'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        Index
+    </a>
+    <a [routerLink]=" ['./home'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        Home
+    </a>
+    <a [routerLink]=" ['./detail'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        Detail
+    </a>
+    <a [routerLink]=" ['./barrel'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        Barrel
+    </a>
+    <a [routerLink]=" ['./about'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        About
+    </a>
+    <a *ngIf="showDevModule" [routerLink]=" ['./dev-module'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        DevModule
+    </a>
+</nav> -->
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid remove-padding">
+      <div class="navbar-header clearfix">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">
+            <div class="logo-wrap"><img class="logo" src="assets/img/bandz-logo.png"></div></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-center white-header">
+          <li >  
+              <a [routerLink]=" ['./'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            About us
+        </a>
+        </li>
+              <li>
+                  <a [routerLink]=" ['./home'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                Terms & Conditions
+            </a>
+            </li>
+              <li>    
+                  <a [routerLink]=" ['./detail'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                Faqs
+            </a>
+            </li>
+              <li>
+                    <a [routerLink]=" ['./detail'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                      Help
+                    </a>
+            </li>
+        </ul>
+
+      </div>
+
+      <div class="collapse navbar-collapse white-header-back" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right red-header">
+              <li >  
+                  <a [routerLink]=" ['./'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                Profile
+            </a>
+            </li>
+                  <li>
+                      <a [routerLink]=" ['./home'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                    Buy Tokens
+                </a>
+                </li>
+                  <li>    
+                      <a [routerLink]=" ['./detail'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                   Transactions
+                </a>
+                </li>
+                  <li class="little-right">
+                        <a [routerLink]=" ['./detail'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                         Logout
+                        </a>
+                </li>
+            </ul>
+    
+          </div>
+    </div>
+  </nav>
+    

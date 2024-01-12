@@ -1,0 +1,116 @@
+.nn-center-wrap{
+    width: 27%;
+    margin: 0 auto;
+}
+.nn-sign-up-heading{
+    font-size: 50px;
+    font-family: "Zwizz";
+    color: rgb(200, 1, 42);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 10px;
+}
+.nn-below-heading-text{
+    text-align: center;
+        font-size: 18px;
+        font-family: "Zwizz";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;   
+}
+.nn-below-heading-link{
+    color: rgb(200, 1, 42); 
+}
+.nn-feild{
+    outline: 0;
+    border-width: 0 0 1px 0;
+    border-color: #d2d2d2;
+    width: 80%;
+    margin-top: 20px;
+}
+.nn-input-feilds-div{
+    text-align: center;
+    margin-top: 20px;
+}
+.nn-special-msg{
+    color: #c51b2c;
+    font-size: 11px; 
+    margin-top: 5px;
+       
+}
+.nn-terms-text{
+    color: #c51b2c;
+}
+.nn-terms-text-main-div{
+    margin-top: 20px;
+    text-align: center;
+}
+.nn-sign-in-btn{
+    background-color: white;
+    border: 1px solid rgb(200, 1, 42); 
+    border-radius: 15px;
+    padding: 4px 70px;
+}
+.nn-btn-div{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+@media only screen and  (max-width:640px) {
+
+  .nn-center-wrap{
+      width: 80%;
+  }
+  .nn-sign-up-heading{
+      font-size: 35px;
+  }
+  .nn-below-heading-text{
+      font-size: 20px;
+  }
+  .nn-terms-text-main{
+  font-size: 12px;
+  }
+  .nn-terms-text-main-div{
+    width: 80%;
+    margin: 0 auto;
+}
+  
+}
+@media only screen and (min-width: 641px) and (max-width:767px) {
+  .nn-center-wrap{
+    width: 45%;
+}
+.nn-sign-up-heading{
+    font-size: 35px;
+}
+.nn-below-heading-text{
+    font-size: 20px;
+}
+.nn-terms-text-main{
+font-size: 12px;
+}
+.nn-terms-text-main-div{
+  width: 80%;
+  margin: 0 auto;
+}
+}
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  .nn-center-wrap{
+    width: 45%;
+}
+.nn-sign-up-heading{
+    font-size: 35px;
+}
+.nn-below-heading-text{
+    font-size: 20px;
+}
+.nn-terms-text-main{
+font-size: 12px;
+}
+.nn-terms-text-main-div{
+  width: 80%;
+  margin: 0 auto;
+}
+}

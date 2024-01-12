@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: 'Zwizz-Bold';
+    src: url('../../assets/fonts/Zwizz-Bold/Zwizz-Bold.eot?#iefix') format('embedded-opentype'),  url('../../assets/fonts/Zwizz-Bold/Zwizz-Bold.woff') format('woff'), url('../../assets/fonts/Zwizz-Bold/Zwizz-Bold.ttf')  format('truetype'), url('../../assets/fonts/Zwizz-Bold/Zwizz-Bold.svg#Zwizz-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Zwizz-Regular';
+    src: url('../../assets/fonts/Zwizz-Regular/Zwizz-Regular.eot?#iefix') format('embedded-opentype'),  url('../../assets/fonts/Zwizz-Regular/Zwizz-Regular.woff') format('woff'), url('../../assets/fonts/Zwizz-Regular/Zwizz-Regular.ttf')  format('truetype'), url('../../assets/fonts/Zwizz-Regular/Zwizz-Regular.svg#Zwizz-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .cust-hr-1{
+    width: 90%;
+    margin: 0 auto;
+    color: white !important;
+}
+.transaction-wrap{
+    background-color: #cd4c4c;
+    margin-top: -20px;
+}
+.transaction-head{
+    font-family: 'Zwizz-Bold';
+    color: white;
+    padding-top: 20px;
+}
+.transaction-p{
+    font-family: 'Zwizz-Regular';
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.trans-tbl-wrap{
+    margin-top: 40px;
+}
+.th-font{
+    font-family: 'Zwizz-Regular';
+    border-bottom: 1px solid black !important;
+    font-weight: 500 !important;
+}
+tbody tr td{
+    font-family: 'Zwizz-Regular';
+    border-top: none !important;
+    border-bottom: 1px solid black !important;
+    padding: 20px !important;
+}
+.padd-left{
+    padding-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .padd-left{
+        padding-left: 10px;
+    }  
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .padd-left{
+        padding-left: 25px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width:1200px) {
+    .padd-left{
+        padding-left: 37px !important;
+    }
+}
+
+
+@media (min-width: 1201px) and (max-width:1400px) {
+    .padd-left{
+        padding-left: 50px !important;
+    }
+}

@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Zwizz-Bold';
+    src: url('../../assets/fonts/Zwizz-Bold/Zwizz-Bold.eot?#iefix') format('embedded-opentype'),  url('../../assets/fonts/Zwizz-Bold/Zwizz-Bold.woff') format('woff'), url('../../assets/fonts/Zwizz-Bold/Zwizz-Bold.ttf')  format('truetype'), url('../../assets/fonts/Zwizz-Bold/Zwizz-Bold.svg#Zwizz-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Zwizz-Regular';
+    src: url('../../assets/fonts/Zwizz-Regular/Zwizz-Regular.eot?#iefix') format('embedded-opentype'),  url('../../assets/fonts/Zwizz-Regular/Zwizz-Regular.woff') format('woff'), url('../../assets/fonts/Zwizz-Regular/Zwizz-Regular.ttf')  format('truetype'), url('../../assets/fonts/Zwizz-Regular/Zwizz-Regular.svg#Zwizz-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+.buy-token-wrap{
+    background-color: #cd4c4c;
+    margin-top: -20px;
+}
+.container-cust{
+    width: 1398px;
+}
+.cust-hr1{
+    width: 90%;
+    margin: 0 auto;
+    color: white !important;
+}
+.buy-token-head{
+    font-family: 'Zwizz-Bold';
+    color: white;
+    padding-top: 10px;
+}
+.buy-token-p{
+    font-family: 'Zwizz-Regular';
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.rate-div-wrap{
+    width: 95%;
+    background-color: #efefef;
+    margin-top: 30px;
+box-shadow: 0 5px 2px -2px lightgray;
+    
+}
+.calc-div-wrap{
+    width: 76%;
+    background-color: #efefef;
+    margin-top: 30px;
+box-shadow: 0 5px 2px -2px lightgray;
+   
+} 
+.rate-head{
+    font-family: 'Zwizz-Regular';
+    padding-top: 15px;  
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.calc-head{
+    font-family: 'Zwizz-Regular';
+    padding-top: 10px;  
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.rate-ul{
+    list-style-type: none;
+    padding-left: 22px !important;
+    padding-bottom: 10px;
+}
+.rate-li{
+    font-family: 'Zwizz-Regular';
+    display: inline-block;
+    border-right:1px solid black;
+    padding-right: 20px;
+    margin-right: 20px;
+     
+}
+.last-li-child-border{
+    border-right:none ; 
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.two-portions-wrap{
+    position: relative;
+}
+.portion-left{
+    float: left;
+    width: 40%;
+
+}
+.portion-right{
+    float: left;
+    width: 60%;
+    
+}
+.payment-p{
+    font-family: 'Zwizz-Regular';
+    padding-left: 20px;
+}
+.payment-ul{
+    list-style-type: none;
+    padding-left: 22px !important;
+   
+}
+.payment-li{
+    font-family: 'Zwizz-Regular';
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 25px; 
+}
+.calc-boxes-wrap{
+    position: relative;
+    width: 65%;
+    margin-top: 30px;
+}
+.first-box{
+    display: inline-block;
+    position: relative;
+}
+.abslut-span{
+    position: absolute;
+    left: 125px;
+    top: 8px;
+}
+.red-input-box{
+    width: 250px;
+    margin-right: 20px;
+    padding: 7px;
+    border: 1px solid #c83333;
+    text-align: center;
+}
+.eq-sign-style{
+    color: #c83333;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.price-div-wrap{
+    width: 61%;
+    background-color: #efefef;
+    margin-top: 30px;
+box-shadow: 0 5px 2px -2px lightgray;
+   padding: 10px 20px;
+   padding-bottom: 0px;
+}
+.price-p{
+    text-align: left;
+}
+.no-span{
+    float: right;
+}
+.cust-hr2{
+    width: 100%;
+    margin: 10px auto;
+    border-top: 1px solid black !important;
+}
+.buy-btn1{
+    margin-top: 30px;
+    width: 61%;
+    background-color: #c83333;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: 'Zwizz-Bold';
+    margin-bottom: 30px;
+}
+.red-box2{
+    width: 250px;
+    border: 1px solid #c83333;
+    float: left;
+    padding: 5px;
+    color: black;
+}
+.btc-lbl{
+    font-family: 'Zwizz-Regular';
+    font-weight: 400;  
+}
+.input-copy{
+    position: relative;
+}
+.copy-btn{
+    background-color: #c83333;
+    margin-left: -10px;
+    border: none;
+    padding: 6.2px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: 'Zwizz-Regular';
+       
+}
